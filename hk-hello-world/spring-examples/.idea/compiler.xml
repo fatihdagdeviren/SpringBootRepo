@@ -7,15 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-elasticsearch" />
-        <module name="spring-mongo-rest-api" />
         <module name="spring-datajpa-postgresql" />
         <module name="demo" />
+        <module name="spring-boot-swagger-test" />
+        <module name="spring-boot-api-doc" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hello-swagger" target="15" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
+      <module name="spring-boot-api-doc" options="-parameters" />
+      <module name="spring-boot-swagger-test" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
