@@ -13,6 +13,7 @@
         <module>spring-elasticsearch</module>
         <module>spring-boot-api-doc</module>
         <module>spring-boot-swagger-test</module>
+        <module>spring-boot-scheduler</module>
     </modules>
 
     <properties>
