@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -12,6 +13,7 @@
         <module name="demo" />
         <module name="spring-boot-swagger-test" />
         <module name="spring-boot-api-doc" />
+        <module name="spring-boot-file-upload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="spring-boot-api-doc" options="-parameters" />
+      <module name="spring-boot-file-upload" options="-parameters" />
       <module name="spring-boot-scheduler" options="-parameters" />
       <module name="spring-boot-swagger-test" options="-parameters" />
       <module name="spring-datajpa-postgresql" options="-parameters" />
